@@ -1,0 +1,39 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 8px 12px -12px gray;
+}
+
+.nav-logo {
+  display: flex;
+  width: 60px;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+
+}
+
+.nav-items>li {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.main-content {
+  padding: 10px 0px 40px 5px;
+}
+
+.footer {
+  display: flex;
+  background-color: gray;
+  opacity: 50;
+  height: 40px;
+}
+
+.footer>small {
+  display: flex;
+  align-items: center;
+  color: white;
+}
